@@ -12,8 +12,8 @@ email=caliskan.murat.20@gmail.com
 
 about=This plugin creates a layer using selected features. A filtering operation is performed to selected layer, new files(.shp, kml, gml etc.) are not created.
 
-tracker=http://bugs
-repository=http://repo
+tracker=https://github.com/caliskanmurat/qgis_create_layer_from_selected_features_plugin/issues
+repository=https://github.com/caliskanmurat/qgis_create_layer_from_selected_features_plugin/tree/main/create_layer_from_selected_features
 # End of mandatory metadata
 
 # Recommended items:
