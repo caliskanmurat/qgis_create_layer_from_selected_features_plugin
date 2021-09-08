@@ -6,7 +6,7 @@
 name=Create Layer From Selected Features
 qgisMinimumVersion=3.0
 description=This plugin creates a layer using selected features.
-version=1.0
+version=1.1
 author=Murat Çalışkan
 email=caliskan.murat.20@gmail.com
 
