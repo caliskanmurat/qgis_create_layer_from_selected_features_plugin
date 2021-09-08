@@ -203,7 +203,7 @@ class CreateLayerFromSelectedFeatures:
                     self.lyr_new.setName(self.new_name)
                     QgsProject.instance().addMapLayer(self.lyr_new)
                     
-                    if lyr.storageType()=='Memory storage':
+                    if lyr.storageType() in ('Memory storage', 'Delimited text file'):
                         if len(self.selected_feat_ids) > 1:
                             self.lyr_new.setSubsetString('$id IN {}'.format(tuple(self.selected_feat_ids)))
                         else:
